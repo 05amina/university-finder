@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Finder</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Find Your Future Career and University</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Select Your Profession</h2>
+            <select id="professionSelect"></select>
+        </section>
+        <section>
+            <h2>Select Scholarship Option</h2>
+            <button onclick="setGrantOption(true)">Full Grant</button>
+            <button onclick="setGrantOption(false)">No Grant</button>
+        </section>
+        <section>
+            <h2>Available Universities</h2>
+            <ul id="universityList"></ul>
+        </section>
+        <section>
+            <h2>University Details</h2>
+            <div id="universityDetails"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 University Finder. All rights reserved.</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
